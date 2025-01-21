@@ -19,6 +19,7 @@ export default function Home() {
     <section className="w-full relative flex flex-col items-center justify-center px-4 md:px-0 py-8">
       {/* Hero */}
       <Wrapper>
+        <div className="absolute inset-0 dark:bg-[linear-gradient(to_right,#e2e8f0_1px,transparent_1px),linear-gradient(to_bottom,#e2e8f0_1px,transparent_1px)] bg-[linear-gradient(to_right,#161616_1px,transparent_1px),linear-gradient(to_bottom,#161616_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_110%)] -z-10 h-[150vh]" />
         <Container>
           <div className="flex flex-col items-center justify-center py-20 w-full">
             <button className="group relative grid overflow-hidden rounded-full px-4 py-1 shadow-[0_1000px_0_0_hsl(0_0%_20%)_inset] transition-colors duration-200">
@@ -82,6 +83,8 @@ export default function Home() {
           </div>
         </Container>
       </Wrapper>
+
+      
 
 
        {/* How it works */}
@@ -258,7 +261,7 @@ export default function Home() {
         </Container>
        </Wrapper>
 
-       {/* newsletter */}
+       {/* Newsletter */}
             <Wrapper className="flex flex-col items-center justify-center py-12 relative">
                 <Container>
                     <LampContainer>
